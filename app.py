@@ -14,7 +14,7 @@ class LangChainCFG:
     kg_vector_stores = {
         '中文维基百科': './cache/zh_wikipedia',
         '大规模金融研报': './cache/financial_research_reports',
-        '初始化': './cache',
+        '盛通教育': './cache',
     }  # 可以替换成自己的知识库，如果没有需要设置为None
     # kg_vector_stores=None
     patterns = ['模型问答', '知识库问答']  #
